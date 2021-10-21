@@ -1,0 +1,22 @@
+network.host: {{ elasticsearch_container_name }}
+node.name: {{ elasticsearch_hostname }}
+discovery.type: {{ discovery_type }}
+#Path where Elasticsearch should store log files
+path.logs: {{ path_logs }}
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+xpack.monitoring.enabled: true
+#Path where Elasticsearch should store data
+path.data: {{ path_data }}
+
+#{% if es_xpack_custom_url is defined %}
+xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: true
+#verification_mode is defined in group_vars
+xpack.security.transport.ssl.verification_mode: {{ verification_mode }}
+#keystore_path is defined in group_vars
+xpack.security.transport.ssl.keystore.path: {{ keystore_path }}
+#truststore_path is defined in group_vars
+xpack.security.transport.ssl.truststore.path: {{ truststore_path }}
+#{% endif %}

@@ -1,0 +1,28 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    hostname: nginx
+    volumes:
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "801:801"
+    networks:
+      - elk
+
+  filebeat:
+    image: ibmcom/filebeat
+    container_name: filebeat
+    hostname: filebeat
+    ports:
+      - 5044:5044
+    volumes:
+      - ./filebeat.yml:/etc/filebeat/filebeat.yml
+      - ./nginx/log:/var/log/nginx
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge

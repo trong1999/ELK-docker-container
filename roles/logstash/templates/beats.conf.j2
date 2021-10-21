@@ -1,0 +1,31 @@
+#input { stdin { } }
+#
+#input {
+#  beats {
+#    port => 5044
+#  }
+#}
+#
+#output {
+#  if [@metadata][beat] in ["heartbeat", "metricbeat", "filebeat"] {
+#    elasticsearch { 
+#      hosts => ["http://{{ elasticsearch_container_name }}:9200"]
+#      user => "{{ elastic_user }}"
+#      password => "{{ elastic_password }}"
+#      index => "%{[@metadata][beat]}-%{[@metadata][version]}"
+#    }
+#  }
+#}
+input {
+   beats {
+     port => "5044"
+   }
+}
+output {
+   elasticsearch {
+     hosts => ["http://{{ elasticsearch_container_name }}:9200"]
+     user => "{{ elastic_user }}"
+     password => "{{ elastic_password }}"
+     index => "logstash-beats-%{+YYYY.MM.dd}"
+   }
+}

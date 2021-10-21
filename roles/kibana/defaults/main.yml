@@ -1,0 +1,24 @@
+---
+#elastic_key: "https://artifacts.elastic.co/GPG-KEY-elasticsearch"
+kibana_version: 7.8
+#kibana_repo: "deb https://artifacts.elastic.co/packages/{{ kibana_version }}/apt stable main"
+kibana_port: 5601
+kibana_hostname: kibana
+kibana_image: kibana
+kibana_elasticsearch_url: "http://elasticsearch:9200"
+log_driver: json-file
+kibana_index: .kibana
+username_kibana: kibana
+#elastic_key: "https://artifacts.elastic.co/GPG-KEY-elasticsearch"
+#kibana_repo: "deb https://artifacts.elastic.co/packages/{{ kibana_version }}/apt stable main"
+firewall_allowed_tcp_ports:
+  # Allow SSH
+  - port: 22
+    src_ip:
+      # elasticsearch
+      - "elasticsearch"
+
+firewall_custom_rule:
+  - "iptables -A INPUT -i lo -j ACCEPT"
+  - "iptables -A INPUT -p icmp -j ACCEPT"
+

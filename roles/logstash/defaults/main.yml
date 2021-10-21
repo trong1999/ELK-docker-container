@@ -1,0 +1,15 @@
+---
+logstash_version: 7.8
+logstash_config_folder: "/etc/logstash/conf.d"
+logstash_patterns_folder: "/etc/logstash/patterns"
+# Logstash vars
+network_host: logstash
+logstash_hostname: logstash
+logstash_image: logstash
+elastic_user: elastic
+elastic_password: elasticpasswd
+user_logstash: logstash_writer
+pass_logstash: Ii0Sd042stYY
+#logstash_conf_keys:
+#  - thorzone
+

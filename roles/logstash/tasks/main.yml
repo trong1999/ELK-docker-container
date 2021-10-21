@@ -1,0 +1,47 @@
+---
+- name: Ensure logstash conf dir exists
+  file:
+    path: "{{ conf_dir }}/logstash"
+    state: directory
+
+- name: Ensure logstash pipeline conf dir exists
+  file:
+    path: "{{ conf_dir }}/logstash/pipeline"
+    state: directory
+
+- name: Copy beats conf logstash pipeline
+  template:
+    src: beats.conf.j2
+    dest: "{{ conf_dir }}/logstash/pipeline/beats.conf"
+   
+- name: Copy syslog conf logstash pipeline
+  template:
+    src: syslog.conf.j2
+    dest: "{{ conf_dir }}/logstash/pipeline/syslog.conf"
+
+- name: Copy logstash conf logstash pipeline
+  template:
+    src: logstash.yml.j2
+    dest: "{{ conf_dir }}/logstash/logstash.yml"
+  #- name: Create a network
+  #  docker_network:
+  #    name: "{{ network_name }}"
+  #
+  #- name: Start logstash container
+  #  docker_container:
+  #    name: "{{ logstash_hostname }}"
+  #    image: "{{ logstash_image }}"
+  #    env:
+  #      XPACK_MONITORING_ELASTICSEARCH_HOSTS: "http://{{ elasticsearch_hostname }}:9200"
+  #      XPACK_MONITORING_ENABLED: "true"
+  #      XPACK_MONITORING_ELASTICSEARCH_USERNAME: "{{ elastic_user }}"
+  #      XPACK_MONITORING_ELASTICSEARCH_PASSWORD: "{{ elastic_password }}"
+  #      PATH_CONFIG: ""
+  #    volumes:
+  #      - "{{ conf_dir }}/logstash/pipeline:/etc/logstash/pipeline:ro"
+  #    ports:
+  #      - "9600:9600"
+  #      - "8089:8089"
+  #    networks:
+  #      - name: "{{ network_name }}"
+  #    log_driver: "{{ log_driver }}"

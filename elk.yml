@@ -1,0 +1,10 @@
+---
+- name: Install elk using docker
+  hosts: elk
+  become: true
+  become_method: sudo
+  roles:
+    - { role: elasticsearch, tags: ["elasticsearch"] }
+    - { role: kibana, tags: ["kibana"] }
+    - { role: logstash, tags: ["logstash"] }
+

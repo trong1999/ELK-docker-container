@@ -1,0 +1,41 @@
+conf_dir: /usr/share
+network_name: elknetwork
+# elasticsearch
+network_host: elasticsearch
+elasticsearch_image: elasticsearch
+elasticsearch_version: 7.8.0
+elasticsearch_hostname: elasticsearch
+elasticsearch_container_name: elasticsearch
+discovery_type: single-node
+elastic_user: elastic
+elastic_password: elasticpasswd
+path_logs: /var/log/elasticsearch
+
+# kibana
+kibana_image: kibana
+kibana_port: 5601
+kibana_version: 7.8.0
+kibana_container_name: kibana
+kibana_index: .kibana
+kibana_hostname: kibana
+username_kibana: kibana
+kibana_elasticsearch_url: "http://{{ elasticsearch_container_name }}:9200"
+kibana_password: kibanapasswd
+
+# logstash
+logstash_image: logstash
+logstash_version: 7.8.0
+logstash_container_name: logstash
+logstash_hostname: logstash
+user_logstash: logstash_writer
+pass_logstash: Ii0Sd042stYY
+
+verification_mode: certificate
+keystore_path: elastic-certificates.p12
+truststore_path: elastic-certificates.p12
+#es_minimum_master_nodes: 2
+es_heap_size: "{{ ansible_memtotal_mb // 2}}m"
+#muilti_path: true
+path_data: /usr/share/elasticsearch/data
+
+log_driver: json-file

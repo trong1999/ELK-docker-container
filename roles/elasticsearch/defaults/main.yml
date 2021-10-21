@@ -1,0 +1,34 @@
+---
+volume_name: elasticdata
+#dependent_packages:
+#  - openjdk-8-jre
+http_host: elasticsearch
+#elastic_key: "https://packages.elastic.co/GPG-KEY-elasticsearch"
+elasticsearch_version: 7.8
+elasticsearch_hostname: elasticsearch
+node_name: elasticsearch
+cluster_name: elk-docker
+discovery_seed_hosts: elasticsearch
+discovery_seed_providers: elasticsearch
+cluster_initial_master_nodes: elasticsearch
+elasticsearch_image: elasticsearch
+#es_repo: "deb https://artifacts.elastic.co/packages/{{ es_version }}/apt stable main" 
+#es_xpack_custom_url: "https://artifacts.elastic.co/downloads/packs/x-pack/x-pack-6.2.4.zip"
+
+#es_cluster_name: logstash
+node_name: "{{ ansible_hostname }}"
+elasticsearch_hostname: 0.0.0.0
+#es_minimum_master_nodes: 2
+es_heap_size: "{{ ansible_memtotal_mb // 2}}m"
+
+#Path where Elasticsearch should store data
+path_data: /var/lib/elasticsearch
+#Path where Elasticsearch should store log files
+path_logs: /var/log/elasticsearch
+#multi_data_path: False #Neu la True thi se nhan config cua cum moi setup
+# mode verifi
+verification_mode: certificate
+# defined path keystore
+keystore_path: elastic-certificates.p12
+# defined path truststore
+truststore_path: elastic-certificates.p12

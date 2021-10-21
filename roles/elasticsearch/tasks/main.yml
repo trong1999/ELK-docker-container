@@ -1,0 +1,39 @@
+---
+- name: Ensure elasticsearch dir exists
+  file:
+    path: "{{ conf_dir }}/elasticsearch"
+    state: directory
+
+- name: Copy elasticsearch conf
+  template:
+    src: elasticsearch.yml.j2
+    dest: "{{ conf_dir }}/elasticsearch/elasticsearch.yml"
+
+    #- name: Create elasticsearch volume
+    #  docker_volume:
+    #    name: "{{ volume_name }}"
+    #    driver: local
+    #
+    #- name: Create a network
+    #  docker_network:
+    #    name: "{{ network_name }}"
+    #
+    #- name: Start elasticsearch container
+    #  docker_container:
+    #    name: "{{ elasticsearch_hostname }}"
+    #    image: "{{ elasticsearch_image }}"
+    #    env:
+    #      ES_JAVA_OPTS: "-Xms{{ es_heap_size }} -Xmx{{ es_heap_size }}"
+    #      discovery.type: "{{ discovery_type }}"
+    #      bootstrap.memory_lock: 'true'
+    #    memory: 2g
+    #    volumes:
+    #      - "{{ conf_dir }}/elasticsearch:/etc/elasticsearch/elasticsearch.yml:ro"
+    #      - "{{ volume_name }}:/usr/share/elasticsearch/data"
+    #    ports:
+    #      - "9200:9200"
+    #      - "9300:9300"
+    #    networks:
+    #      - name: "{{ network_name }}"
+    #    state: started
+    #    log_driver: "{{ log_driver }}"

@@ -1,0 +1,20 @@
+#[containers:children]
+#elasticsearch
+#kibana
+#logstash
+#
+#[elasticsearch]
+#elasticsearch
+#
+#[kibana]
+#kibana
+#
+#[logstash]
+#logstash
+#
+#[containers:vars]
+#ansible_connection=docker
+[elk]
+gplay-elk-docker ansible_host=10.10.56.53 ansible_user=ubuntu
+[elk:vars]
+ansible_ssh_private_key_file=~/.ssh/GTV-Plus-Dev.pem

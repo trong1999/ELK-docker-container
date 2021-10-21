@@ -1,0 +1,442 @@
+2021/10/20 01:28:12 [notice] 1#1: using the "epoll" event method
+2021/10/20 01:28:12 [notice] 1#1: nginx/1.21.3
+2021/10/20 01:28:12 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 01:28:12 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 01:28:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 01:28:12 [notice] 1#1: start worker processes
+2021/10/20 01:28:12 [notice] 1#1: start worker process 31
+2021/10/20 01:28:12 [notice] 1#1: start worker process 32
+2021/10/20 01:41:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 01:41:27 [notice] 31#31: gracefully shutting down
+2021/10/20 01:41:27 [notice] 31#31: exiting
+2021/10/20 01:41:27 [notice] 31#31: exit
+2021/10/20 01:41:27 [notice] 32#32: gracefully shutting down
+2021/10/20 01:41:27 [notice] 32#32: exiting
+2021/10/20 01:41:27 [notice] 32#32: exit
+2021/10/20 01:41:27 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 01:41:27 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 01:41:27 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 01:41:27 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 01:41:27 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 01:41:27 [notice] 1#1: exit
+2021/10/20 01:41:45 [notice] 1#1: using the "epoll" event method
+2021/10/20 01:41:45 [notice] 1#1: nginx/1.21.3
+2021/10/20 01:41:45 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 01:41:45 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 01:41:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 01:41:45 [notice] 1#1: start worker processes
+2021/10/20 01:41:45 [notice] 1#1: start worker process 31
+2021/10/20 01:41:45 [notice] 1#1: start worker process 32
+2021/10/20 01:44:01 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 01:46:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 01:46:11 [notice] 32#32: gracefully shutting down
+2021/10/20 01:46:11 [notice] 32#32: exiting
+2021/10/20 01:46:11 [notice] 32#32: exit
+2021/10/20 01:46:11 [notice] 31#31: gracefully shutting down
+2021/10/20 01:46:11 [notice] 31#31: exiting
+2021/10/20 01:46:11 [notice] 31#31: exit
+2021/10/20 01:46:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 01:46:11 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 01:46:11 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 01:46:11 [notice] 1#1: exit
+2021/10/20 01:46:31 [notice] 1#1: using the "epoll" event method
+2021/10/20 01:46:31 [notice] 1#1: nginx/1.21.3
+2021/10/20 01:46:31 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 01:46:31 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 01:46:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 01:46:31 [notice] 1#1: start worker processes
+2021/10/20 01:46:31 [notice] 1#1: start worker process 31
+2021/10/20 01:46:31 [notice] 1#1: start worker process 32
+2021/10/20 01:48:42 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 01:48:44 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 01:56:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 01:56:26 [notice] 32#32: gracefully shutting down
+2021/10/20 01:56:26 [notice] 32#32: exiting
+2021/10/20 01:56:26 [notice] 32#32: exit
+2021/10/20 01:56:26 [notice] 31#31: gracefully shutting down
+2021/10/20 01:56:26 [notice] 31#31: exiting
+2021/10/20 01:56:26 [notice] 31#31: exit
+2021/10/20 01:56:26 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 01:56:26 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 01:56:26 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 01:56:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 01:56:26 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 01:56:26 [notice] 1#1: exit
+2021/10/20 01:57:55 [notice] 1#1: using the "epoll" event method
+2021/10/20 01:57:55 [notice] 1#1: nginx/1.21.3
+2021/10/20 01:57:55 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 01:57:55 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 01:57:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 01:57:55 [notice] 1#1: start worker processes
+2021/10/20 01:57:55 [notice] 1#1: start worker process 31
+2021/10/20 01:57:55 [notice] 1#1: start worker process 32
+2021/10/20 02:01:12 [error] 32#32: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 02:26:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 02:26:05 [notice] 31#31: gracefully shutting down
+2021/10/20 02:26:05 [notice] 31#31: exiting
+2021/10/20 02:26:05 [notice] 31#31: exit
+2021/10/20 02:26:05 [notice] 32#32: gracefully shutting down
+2021/10/20 02:26:05 [notice] 32#32: exiting
+2021/10/20 02:26:05 [notice] 32#32: exit
+2021/10/20 02:26:05 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 02:26:05 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 02:26:05 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 02:26:05 [notice] 1#1: exit
+2021/10/20 02:26:32 [notice] 1#1: using the "epoll" event method
+2021/10/20 02:26:32 [notice] 1#1: nginx/1.21.3
+2021/10/20 02:26:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 02:26:32 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 02:26:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 02:26:32 [notice] 1#1: start worker processes
+2021/10/20 02:26:32 [notice] 1#1: start worker process 33
+2021/10/20 02:26:32 [notice] 1#1: start worker process 34
+2021/10/20 02:30:28 [error] 34#34: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 02:30:29 [error] 34#34: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 02:51:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 02:51:31 [notice] 33#33: gracefully shutting down
+2021/10/20 02:51:31 [notice] 33#33: exiting
+2021/10/20 02:51:31 [notice] 33#33: exit
+2021/10/20 02:51:31 [notice] 34#34: gracefully shutting down
+2021/10/20 02:51:31 [notice] 34#34: exiting
+2021/10/20 02:51:31 [notice] 34#34: exit
+2021/10/20 02:51:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/20 02:51:31 [notice] 1#1: worker process 33 exited with code 0
+2021/10/20 02:51:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 02:51:31 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/10/20 02:51:31 [notice] 1#1: worker process 34 exited with code 0
+2021/10/20 02:51:31 [notice] 1#1: exit
+2021/10/20 02:59:07 [notice] 1#1: using the "epoll" event method
+2021/10/20 02:59:07 [notice] 1#1: nginx/1.21.3
+2021/10/20 02:59:07 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 02:59:07 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 02:59:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 02:59:07 [notice] 1#1: start worker processes
+2021/10/20 02:59:07 [notice] 1#1: start worker process 36
+2021/10/20 02:59:07 [notice] 1#1: start worker process 37
+2021/10/20 03:01:55 [error] 36#36: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 03:01:56 [error] 36#36: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 03:07:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 03:07:21 [notice] 36#36: gracefully shutting down
+2021/10/20 03:07:21 [notice] 37#37: gracefully shutting down
+2021/10/20 03:07:21 [notice] 36#36: exiting
+2021/10/20 03:07:21 [notice] 37#37: exiting
+2021/10/20 03:07:21 [notice] 36#36: exit
+2021/10/20 03:07:21 [notice] 37#37: exit
+2021/10/20 03:07:21 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/10/20 03:07:21 [notice] 1#1: worker process 36 exited with code 0
+2021/10/20 03:07:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 03:07:21 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/10/20 03:07:21 [notice] 1#1: worker process 37 exited with code 0
+2021/10/20 03:07:21 [notice] 1#1: exit
+2021/10/20 03:08:51 [notice] 1#1: using the "epoll" event method
+2021/10/20 03:08:51 [notice] 1#1: nginx/1.21.3
+2021/10/20 03:08:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 03:08:51 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 03:08:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 03:08:51 [notice] 1#1: start worker processes
+2021/10/20 03:08:51 [notice] 1#1: start worker process 31
+2021/10/20 03:08:51 [notice] 1#1: start worker process 32
+2021/10/20 03:45:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 03:45:13 [notice] 31#31: gracefully shutting down
+2021/10/20 03:45:13 [notice] 31#31: exiting
+2021/10/20 03:45:13 [notice] 31#31: exit
+2021/10/20 03:45:13 [notice] 32#32: gracefully shutting down
+2021/10/20 03:45:13 [notice] 32#32: exiting
+2021/10/20 03:45:13 [notice] 32#32: exit
+2021/10/20 03:45:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 03:45:13 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 03:45:13 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 03:45:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 03:45:13 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 03:45:13 [notice] 1#1: exit
+2021/10/20 03:48:16 [notice] 1#1: using the "epoll" event method
+2021/10/20 03:48:16 [notice] 1#1: nginx/1.21.3
+2021/10/20 03:48:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 03:48:16 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 03:48:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 03:48:16 [notice] 1#1: start worker processes
+2021/10/20 03:48:16 [notice] 1#1: start worker process 32
+2021/10/20 03:48:16 [notice] 1#1: start worker process 33
+2021/10/20 03:52:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 03:52:26 [notice] 32#32: gracefully shutting down
+2021/10/20 03:52:26 [notice] 32#32: exiting
+2021/10/20 03:52:26 [notice] 32#32: exit
+2021/10/20 03:52:26 [notice] 33#33: gracefully shutting down
+2021/10/20 03:52:26 [notice] 33#33: exiting
+2021/10/20 03:52:26 [notice] 33#33: exit
+2021/10/20 03:52:26 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 03:52:26 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 03:52:26 [notice] 1#1: worker process 33 exited with code 0
+2021/10/20 03:52:26 [notice] 1#1: exit
+2021/10/20 03:53:06 [notice] 1#1: using the "epoll" event method
+2021/10/20 03:53:06 [notice] 1#1: nginx/1.21.3
+2021/10/20 03:53:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 03:53:06 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 03:53:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 03:53:06 [notice] 1#1: start worker processes
+2021/10/20 03:53:06 [notice] 1#1: start worker process 32
+2021/10/20 03:53:06 [notice] 1#1: start worker process 33
+2021/10/20 04:11:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 04:11:33 [notice] 32#32: gracefully shutting down
+2021/10/20 04:11:33 [notice] 32#32: exiting
+2021/10/20 04:11:33 [notice] 32#32: exit
+2021/10/20 04:11:33 [notice] 33#33: gracefully shutting down
+2021/10/20 04:11:33 [notice] 33#33: exiting
+2021/10/20 04:11:33 [notice] 33#33: exit
+2021/10/20 04:11:33 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 04:11:33 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 04:11:33 [notice] 1#1: worker process 33 exited with code 0
+2021/10/20 04:11:33 [notice] 1#1: exit
+2021/10/20 04:12:25 [notice] 1#1: using the "epoll" event method
+2021/10/20 04:12:25 [notice] 1#1: nginx/1.21.3
+2021/10/20 04:12:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 04:12:25 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 04:12:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 04:12:25 [notice] 1#1: start worker processes
+2021/10/20 04:12:25 [notice] 1#1: start worker process 32
+2021/10/20 04:12:25 [notice] 1#1: start worker process 33
+2021/10/20 04:29:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 04:29:25 [notice] 32#32: gracefully shutting down
+2021/10/20 04:29:25 [notice] 32#32: exiting
+2021/10/20 04:29:25 [notice] 32#32: exit
+2021/10/20 04:29:25 [notice] 33#33: gracefully shutting down
+2021/10/20 04:29:25 [notice] 33#33: exiting
+2021/10/20 04:29:25 [notice] 33#33: exit
+2021/10/20 04:29:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 04:29:25 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 04:29:25 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/20 04:29:25 [notice] 1#1: worker process 33 exited with code 0
+2021/10/20 04:29:25 [notice] 1#1: exit
+2021/10/20 04:29:42 [notice] 1#1: using the "epoll" event method
+2021/10/20 04:29:42 [notice] 1#1: nginx/1.21.3
+2021/10/20 04:29:42 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 04:29:42 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 04:29:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 04:29:42 [notice] 1#1: start worker processes
+2021/10/20 04:29:42 [notice] 1#1: start worker process 31
+2021/10/20 04:29:42 [notice] 1#1: start worker process 32
+2021/10/20 07:55:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 07:55:58 [notice] 32#32: gracefully shutting down
+2021/10/20 07:55:58 [notice] 32#32: exiting
+2021/10/20 07:55:58 [notice] 32#32: exit
+2021/10/20 07:55:58 [notice] 31#31: gracefully shutting down
+2021/10/20 07:55:58 [notice] 31#31: exiting
+2021/10/20 07:55:58 [notice] 31#31: exit
+2021/10/20 07:55:58 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 07:55:58 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 07:55:58 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 07:55:58 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 07:55:58 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 07:55:58 [notice] 1#1: exit
+2021/10/20 07:56:35 [notice] 1#1: using the "epoll" event method
+2021/10/20 07:56:35 [notice] 1#1: nginx/1.21.3
+2021/10/20 07:56:35 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 07:56:35 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 07:56:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 07:56:35 [notice] 1#1: start worker processes
+2021/10/20 07:56:35 [notice] 1#1: start worker process 31
+2021/10/20 07:56:35 [notice] 1#1: start worker process 32
+2021/10/20 08:01:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 08:01:56 [notice] 31#31: gracefully shutting down
+2021/10/20 08:01:56 [notice] 32#32: gracefully shutting down
+2021/10/20 08:01:56 [notice] 31#31: exiting
+2021/10/20 08:01:56 [notice] 32#32: exiting
+2021/10/20 08:01:56 [notice] 31#31: exit
+2021/10/20 08:01:56 [notice] 32#32: exit
+2021/10/20 08:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 08:01:56 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 08:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 08:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 08:01:56 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 08:01:56 [notice] 1#1: exit
+2021/10/20 08:02:13 [notice] 1#1: using the "epoll" event method
+2021/10/20 08:02:13 [notice] 1#1: nginx/1.21.3
+2021/10/20 08:02:13 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 08:02:13 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 08:02:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 08:02:13 [notice] 1#1: start worker processes
+2021/10/20 08:02:13 [notice] 1#1: start worker process 31
+2021/10/20 08:02:13 [notice] 1#1: start worker process 32
+2021/10/20 08:38:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 08:38:24 [notice] 31#31: gracefully shutting down
+2021/10/20 08:38:24 [notice] 31#31: exiting
+2021/10/20 08:38:24 [notice] 31#31: exit
+2021/10/20 08:38:24 [notice] 32#32: gracefully shutting down
+2021/10/20 08:38:24 [notice] 32#32: exiting
+2021/10/20 08:38:24 [notice] 32#32: exit
+2021/10/20 08:38:24 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 08:38:24 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 08:38:24 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 08:38:24 [notice] 1#1: exit
+2021/10/20 08:39:32 [notice] 1#1: using the "epoll" event method
+2021/10/20 08:39:32 [notice] 1#1: nginx/1.21.3
+2021/10/20 08:39:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 08:39:32 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 08:39:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 08:39:32 [notice] 1#1: start worker processes
+2021/10/20 08:39:32 [notice] 1#1: start worker process 31
+2021/10/20 08:39:32 [notice] 1#1: start worker process 32
+2021/10/20 08:53:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 08:53:55 [notice] 31#31: gracefully shutting down
+2021/10/20 08:53:55 [notice] 31#31: exiting
+2021/10/20 08:53:55 [notice] 31#31: exit
+2021/10/20 08:53:55 [notice] 32#32: gracefully shutting down
+2021/10/20 08:53:55 [notice] 32#32: exiting
+2021/10/20 08:53:55 [notice] 32#32: exit
+2021/10/20 08:53:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 08:53:55 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 08:53:55 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 08:53:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 08:53:55 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 08:53:55 [notice] 1#1: exit
+2021/10/20 08:54:11 [notice] 1#1: using the "epoll" event method
+2021/10/20 08:54:11 [notice] 1#1: nginx/1.21.3
+2021/10/20 08:54:11 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 08:54:11 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 08:54:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 08:54:11 [notice] 1#1: start worker processes
+2021/10/20 08:54:11 [notice] 1#1: start worker process 31
+2021/10/20 08:54:11 [notice] 1#1: start worker process 32
+2021/10/20 08:57:20 [error] 31#31: *5 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 09:24:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 09:24:29 [notice] 32#32: gracefully shutting down
+2021/10/20 09:24:29 [notice] 32#32: exiting
+2021/10/20 09:24:29 [notice] 32#32: exit
+2021/10/20 09:24:29 [notice] 31#31: gracefully shutting down
+2021/10/20 09:24:29 [notice] 31#31: exiting
+2021/10/20 09:24:29 [notice] 31#31: exit
+2021/10/20 09:24:29 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 09:24:29 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 09:24:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 09:24:29 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 09:24:29 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 09:24:29 [notice] 1#1: exit
+2021/10/20 09:25:34 [notice] 1#1: using the "epoll" event method
+2021/10/20 09:25:34 [notice] 1#1: nginx/1.21.3
+2021/10/20 09:25:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 09:25:34 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 09:25:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 09:25:34 [notice] 1#1: start worker processes
+2021/10/20 09:25:34 [notice] 1#1: start worker process 31
+2021/10/20 09:25:34 [notice] 1#1: start worker process 32
+2021/10/20 09:27:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 09:27:48 [notice] 31#31: gracefully shutting down
+2021/10/20 09:27:48 [notice] 31#31: exiting
+2021/10/20 09:27:48 [notice] 31#31: exit
+2021/10/20 09:27:48 [notice] 32#32: gracefully shutting down
+2021/10/20 09:27:48 [notice] 32#32: exiting
+2021/10/20 09:27:48 [notice] 32#32: exit
+2021/10/20 09:27:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 09:27:48 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 09:27:48 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 09:27:48 [notice] 1#1: exit
+2021/10/20 09:28:08 [notice] 1#1: using the "epoll" event method
+2021/10/20 09:28:08 [notice] 1#1: nginx/1.21.3
+2021/10/20 09:28:08 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 09:28:08 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 09:28:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 09:28:08 [notice] 1#1: start worker processes
+2021/10/20 09:28:08 [notice] 1#1: start worker process 32
+2021/10/20 09:28:08 [notice] 1#1: start worker process 33
+2021/10/20 10:23:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 10:23:22 [notice] 32#32: gracefully shutting down
+2021/10/20 10:23:22 [notice] 33#33: gracefully shutting down
+2021/10/20 10:23:22 [notice] 32#32: exiting
+2021/10/20 10:23:22 [notice] 33#33: exiting
+2021/10/20 10:23:22 [notice] 32#32: exit
+2021/10/20 10:23:22 [notice] 33#33: exit
+2021/10/20 10:23:22 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/20 10:23:22 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 10:23:22 [notice] 1#1: worker process 33 exited with code 0
+2021/10/20 10:23:22 [notice] 1#1: exit
+2021/10/20 10:24:26 [notice] 1#1: using the "epoll" event method
+2021/10/20 10:24:26 [notice] 1#1: nginx/1.21.3
+2021/10/20 10:24:26 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 10:24:26 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 10:24:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 10:24:26 [notice] 1#1: start worker processes
+2021/10/20 10:24:26 [notice] 1#1: start worker process 31
+2021/10/20 10:24:26 [notice] 1#1: start worker process 32
+2021/10/20 10:26:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 10:26:55 [notice] 32#32: gracefully shutting down
+2021/10/20 10:26:55 [notice] 31#31: gracefully shutting down
+2021/10/20 10:26:55 [notice] 32#32: exiting
+2021/10/20 10:26:55 [notice] 31#31: exiting
+2021/10/20 10:26:55 [notice] 32#32: exit
+2021/10/20 10:26:55 [notice] 31#31: exit
+2021/10/20 10:26:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 10:26:55 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 10:26:55 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 10:26:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 10:26:55 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 10:26:55 [notice] 1#1: exit
+2021/10/20 10:27:51 [notice] 1#1: using the "epoll" event method
+2021/10/20 10:27:51 [notice] 1#1: nginx/1.21.3
+2021/10/20 10:27:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 10:27:51 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 10:27:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 10:27:51 [notice] 1#1: start worker processes
+2021/10/20 10:27:51 [notice] 1#1: start worker process 31
+2021/10/20 10:27:51 [notice] 1#1: start worker process 32
+2021/10/20 16:19:56 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.100.18.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.56.53", referrer: "http://10.10.56.53/"
+2021/10/20 16:24:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 16:24:37 [notice] 32#32: gracefully shutting down
+2021/10/20 16:24:37 [notice] 32#32: exiting
+2021/10/20 16:24:37 [notice] 32#32: exit
+2021/10/20 16:24:37 [notice] 31#31: gracefully shutting down
+2021/10/20 16:24:37 [notice] 31#31: exiting
+2021/10/20 16:24:37 [notice] 31#31: exit
+2021/10/20 16:24:37 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 16:24:37 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 16:24:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 16:24:37 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 16:24:37 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 16:24:37 [notice] 1#1: exit
+2021/10/20 16:44:21 [notice] 1#1: using the "epoll" event method
+2021/10/20 16:44:21 [notice] 1#1: nginx/1.21.3
+2021/10/20 16:44:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 16:44:21 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 16:44:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 16:44:21 [notice] 1#1: start worker processes
+2021/10/20 16:44:21 [notice] 1#1: start worker process 31
+2021/10/20 16:44:21 [notice] 1#1: start worker process 32
+2021/10/20 17:48:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/20 17:48:59 [notice] 32#32: gracefully shutting down
+2021/10/20 17:48:59 [notice] 32#32: exiting
+2021/10/20 17:48:59 [notice] 32#32: exit
+2021/10/20 17:48:59 [notice] 31#31: gracefully shutting down
+2021/10/20 17:48:59 [notice] 31#31: exiting
+2021/10/20 17:48:59 [notice] 31#31: exit
+2021/10/20 17:48:59 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/20 17:48:59 [notice] 1#1: worker process 32 exited with code 0
+2021/10/20 17:48:59 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/20 17:48:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/20 17:48:59 [notice] 1#1: worker process 31 exited with code 0
+2021/10/20 17:48:59 [notice] 1#1: exit
+2021/10/20 17:50:28 [notice] 1#1: using the "epoll" event method
+2021/10/20 17:50:28 [notice] 1#1: nginx/1.21.3
+2021/10/20 17:50:28 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/20 17:50:28 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/20 17:50:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/20 17:50:28 [notice] 1#1: start worker processes
+2021/10/20 17:50:28 [notice] 1#1: start worker process 31
+2021/10/20 17:50:28 [notice] 1#1: start worker process 32
+2021/10/21 01:30:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/21 01:30:13 [notice] 31#31: gracefully shutting down
+2021/10/21 01:30:13 [notice] 32#32: gracefully shutting down
+2021/10/21 01:30:13 [notice] 31#31: exiting
+2021/10/21 01:30:13 [notice] 32#32: exiting
+2021/10/21 01:30:13 [notice] 31#31: exit
+2021/10/21 01:30:13 [notice] 32#32: exit
+2021/10/21 01:30:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/21 01:30:13 [notice] 1#1: worker process 31 exited with code 0
+2021/10/21 01:30:13 [notice] 1#1: worker process 32 exited with code 0
+2021/10/21 01:30:13 [notice] 1#1: exit
+2021/10/21 01:30:29 [notice] 1#1: using the "epoll" event method
+2021/10/21 01:30:29 [notice] 1#1: nginx/1.21.3
+2021/10/21 01:30:29 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/21 01:30:29 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/21 01:30:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/21 01:30:29 [notice] 1#1: start worker processes
+2021/10/21 01:30:29 [notice] 1#1: start worker process 31
+2021/10/21 01:30:29 [notice] 1#1: start worker process 32
